@@ -1,5 +1,4 @@
 
-
 body{
     display: flex;
     flex-direction: column;
@@ -22,19 +21,20 @@ body{
   }
   
   .display{
+    width:fit-content;
     background:transparent;
     border: 2px solid;
     border-radius: 10px;
-    padding-left: 10px;
     color: #ffffff;
     font-size: 4rem;
     box-shadow: 0px 0px 2px white;
-    font-family: monospace;
+    font-family:'Courier New', Courier, monospace;
   }
   
   button{
     margin-top: 30px;
-    margin-left: 9px;
+    margin-left: 10px;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
